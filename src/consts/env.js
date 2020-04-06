@@ -23,3 +23,11 @@ const apiPrefix = {
 export const SENTRY_DSN = `https://b230aa0f62684661963e5cc267184dcd@am.kaikeba.com/48`;
 export const getApiPrefix = apiPrefix[currentEnv];
 export const apiBaseUrl = `https://open${getApiPrefix}.kaikeba.com/`;
+export const API = {
+  consoleBaseUrl: `https://console${getApiPrefix}.kaikeba.com`,
+  kuickBaseUrl: `https://deal-api-${getKuickApiPrefix}.kuick.cn`,
+  mos2BaseUrl: `https://mos2${getmos2ApiPrefix}.kaikeba.com/api/v1.7`,
+  QINIU_IMG_HOST: `https://img.kaikeba.com/`,
+  UPLOAD: `https://${getQiniuPrefix}mmsapi.kaikeba.com/`,
+  robot: `https://deal-admin-${getKuickApiPrefix}.kuick.cn`,
+};

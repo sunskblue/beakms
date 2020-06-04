@@ -25,9 +25,9 @@ export const getApiPrefix = apiPrefix[currentEnv];
 export const apiBaseUrl = `https://open${getApiPrefix}.kaikeba.com/`;
 export const API = {
   consoleBaseUrl: `https://console${getApiPrefix}.kaikeba.com`,
-  kuickBaseUrl: `https://deal-api-${getKuickApiPrefix}.kuick.cn`,
-  mos2BaseUrl: `https://mos2${getmos2ApiPrefix}.kaikeba.com/api/v1.7`,
+  // kuickBaseUrl: `https://deal-api-${getKuickApiPrefix}.kuick.cn`,
+  // mos2BaseUrl: `https://mos2${getmos2ApiPrefix}.kaikeba.com/api/v1.7`,
   QINIU_IMG_HOST: `https://img.kaikeba.com/`,
-  UPLOAD: `https://${getQiniuPrefix}mmsapi.kaikeba.com/`,
-  robot: `https://deal-admin-${getKuickApiPrefix}.kuick.cn`,
+  // UPLOAD: `https://${getQiniuPrefix}mmsapi.kaikeba.com/`,
+  // robot: `https://deal-admin-${getKuickApiPrefix}.kuick.cn`,
 };

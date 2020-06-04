@@ -90,6 +90,7 @@
   "scripts": {
     "start": "fig-run -e dev -m start",
     "dev": "fig-run -e dev -m start",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "build:test": "fig-run -e test -m build",
     "build:pre": "fig-run -e test -m build",
     "build:prod": "fig-run -e prod -m build"
@@ -164,5 +165,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.34"
   }
 }

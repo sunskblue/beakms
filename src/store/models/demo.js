@@ -1,4 +1,4 @@
-import request from '../../utils/request'
+import services from '../loadServices';
 
 export default {
   state: {
@@ -31,9 +31,10 @@ export default {
         name: 'stark',
         age: 18
       }
-      const res = await request.get('https://api.shudong.wang/v1/movies/hot', params)
-      console.log('JSON.parse(res.data)', JSON.parse(res.data))
-      this.result(JSON.parse(res.data))
+      console.log('demo', services);
+      // const res = await request.get('https://api.shudong.wang/v1/movies/coming', params);
+      // console.log('JSON.parse(res.data)', JSON.parse(res.data))
+      // this.result(JSON.parse(res.data))
     }
   })
 }

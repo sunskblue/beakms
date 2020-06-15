@@ -431,13 +431,6 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
-      // new WebpackBar({
-      //   name: "fig",
-      //   color: "#00AFF2",
-      //   profile: true,
-      //   minimal: false,
-      //   compiledIn: false
-      // }),
       new ProgressPlugin(function(percentage, msg, current, active, modulepath) {
         if (process.stdout.isTTY && percentage < 1) {
           process.stdout.cursorTo(0);

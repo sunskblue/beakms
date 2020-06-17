@@ -167,6 +167,7 @@
     ]
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^2.0.34"
+    "conventional-changelog-cli": "^2.0.34",
+    "http-proxy-middleware": "^1.0.4"
   }
 }

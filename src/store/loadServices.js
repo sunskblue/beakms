@@ -1,9 +1,3 @@
-// import bannerService from './banner.service';
-// import advertisingService from './advertising.service';
-
-// // 接口导出集合
-// export { bannerService, advertisingService };
-
 /**
  * @author stark.wang
  * @blog http://shudong.wang

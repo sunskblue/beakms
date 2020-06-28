@@ -3,6 +3,9 @@
 > 上个版本，请去v1分支
 
 ## 使用方式
+## 样式风格（基于antd 使用了less）
+use less
+
 #### 开发
 ```
 npm start
